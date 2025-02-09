@@ -60,3 +60,5 @@ sentiment-analyzer/
     ├── twitter_training.csv
     └── twitter_validation.csv
 ```
+
+### Author: Mohd Kaif 
