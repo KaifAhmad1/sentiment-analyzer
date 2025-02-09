@@ -48,12 +48,15 @@ streamlit run app.py
 ## Repo Structure 
 ```
 sentiment-analyzer/
-├── app.py                # Main Streamlit application
+├── app.py                # Main Streamlit application contain UI Logic
 ├── utils.py              # Utility functions for text processing, predictions, and plotting
-├── NEXA_Sentiment_Analysis_System.ipynb        # Jupyter Notebook with the entire pipeline
+├── NEXA_Sentiment_Analysis_System.ipynb        # Google Colab Notebook with the entire pipeline from data loading to metrics comparision
 ├── requirements.txt      # Project dependencies
 ├── README.md             # Project overview and instructions
 └── models/               # Folder containing trained models and vectorizers
     ├── best_rf_model.joblib
     └── tfidf_vectorizer.joblib
+└── data/               # Folder containing training and testing data download from kaggle for twitter sentiment analysis.
+    ├── twitter_training.csv
+    └── twitter_validation.csv
 ```
