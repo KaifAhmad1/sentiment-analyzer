@@ -1,4 +1,6 @@
 # sentiment-analyzer
+Application is hosted on Streamlit Cloud. You can check it out. - [Twitter Sentiment Analyzer](https://twitter-sentiment-analyzer1.streamlit.app/)
+
 ### How to run it on Local Host 
 - First, clone your repository from GitHub:
 ```
