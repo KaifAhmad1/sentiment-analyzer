@@ -43,7 +43,7 @@ if st.session_state.history:
     st.sidebar.dataframe(history_df)
 
 # Main App UI
-st.title("Enhanced Real-Time Twitter Sentiment Analysis")
+st.title("Real-Time Twitter Sentiment Analysis")
 st.write("Enter a tweet below to analyze its sentiment and gain real-time insights.")
 
 # User input for tweet text
