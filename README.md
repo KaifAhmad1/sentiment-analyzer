@@ -1,6 +1,6 @@
 # sentiment-analyzer
 ```
-RealTimeTwitterSentimentAnalysis/
+sentiment-analyzer/
 ├── app.py                # Main Streamlit application
 ├── utils.py              # Utility functions for text processing, predictions, and plotting
 ├── NEXA_Sentiment_Analysis_System.ipynb        # Jupyter Notebook with the entire pipeline
