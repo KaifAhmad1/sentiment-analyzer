@@ -4,6 +4,13 @@ import numpy as np
 import pandas as pd
 import plotly.express as px
 from utils import clean_text, predict_sentiment, plot_probabilities, plot_gauge
+import nltk
+
+# Ensure NLTK data is downloaded
+nltk.download('stopwords')
+nltk.download('punkt')
+nltk.download('punkt_tab')
+
 
 # Load the trained model and TF-IDF vectorizer
 try:
@@ -81,7 +88,7 @@ if st.button("Analyze Sentiment"):
 st.markdown("---")
 st.markdown("### How It Works")
 st.write("""
-1. **Preprocessing:** Your tweet is cleaned and tokenized.
+1. **Processing:** Your tweet is cleaned and tokenized.
 2. **Vectorization:** The cleaned text is transformed using a pre-trained TF-IDF vectorizer.
 3. **Prediction:** A Random Forest model predicts the sentiment and outputs a probability distribution.
 4. **Visualization:**
