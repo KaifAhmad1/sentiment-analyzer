@@ -11,7 +11,6 @@ nltk.download('stopwords')
 nltk.download('punkt')
 nltk.download('punkt_tab')
 
-
 # Load the trained model and TF-IDF vectorizer
 try:
     model = joblib.load('models/best_rf_model.joblib')
@@ -48,7 +47,7 @@ st.title("Enhanced Real-Time Twitter Sentiment Analysis")
 st.write("Enter a tweet below to analyze its sentiment and gain real-time insights.")
 
 # User input for tweet text
-user_input = st.text_area("Enter Tweet Text", value="I love using this app for sentiment analysis!", height=100)
+user_input = st.text_area("Enter Tweet Text", placeholder="Type your tweet here...", height=100)
 
 if st.button("Analyze Sentiment"):
     if user_input:
