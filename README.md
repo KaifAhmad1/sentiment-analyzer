@@ -59,6 +59,7 @@ sentiment-analyzer/
 └── data/               # Folder containing training and testing data download from kaggle for twitter sentiment analysis.
     ├── twitter_training.csv
     └── twitter_validation.csv
+├── Images             # Containing EDA and Data Analysis Graphs and Charts. 
 ```
 
 ### Author: Mohd Kaif 
