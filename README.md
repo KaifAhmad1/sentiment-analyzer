@@ -17,7 +17,9 @@ The NEXA Sentiment Analysis System is a real-time Twitter sentiment analysis app
    - 3. Deep LSTM: Demonstrated lower performance on this dataset.
 - **Inference:** The best performing model `(Random Forest)` is loaded in the app, and predictions are made based on TF-IDF features.
 
-Application is hosted on Streamlit Cloud. You can check it out. - [Twitter Sentiment Analyzer](https://twitter-sentiment-analyzer1.streamlit.app/)
+## Application
+- Application is hosted on Streamlit Cloud. You can check it out. - [Twitter Sentiment Analyzer](https://twitter-sentiment-analyzer1.streamlit.app/)
+- Google Colab link for all EDA, Wordcloud Visualization. [Google Colab](https://colab.research.google.com/github/KaifAhmad1/sentiment-analyzer/blob/main/NEXA_Sentiment_Analysis_System.ipynb)
 
 ## How to run it on Local Host 
 - First, clone your repository from GitHub:
